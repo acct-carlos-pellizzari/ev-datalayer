@@ -1,0 +1,21 @@
+.code {
+  font-size: large;
+  white-space: pre;
+  background-color: hsla(0, 0%, 0%, 0.3);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: fit-content;
+}
+
+.quantity-selector {
+  display: flex;
+}
+
+.quantity-selector > button {
+  width: 1rem;
+}
+
+.quantity-selector > input[type='tel'] {
+  text-align: center;
+  width: 3rem;
+}
